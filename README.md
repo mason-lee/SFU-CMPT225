@@ -127,13 +127,19 @@ p_arr = new int[10000000];
 #include <iostream>
 using namespace std;
 
-int main
+int main()
 {
   int originArray[5];
   
   originArray[0] = 11;
-  originArray[0] = 11;
-  originArray[0] = 11;originArray[0] = 11;
+  originArray[1] = 22;
+  originArray[2] = 33;
+  originArray[3] = 44;
+  originArray[4] = 55;
+  
+  int* dynamicArray = new int[5];
+  
+  *dynamicArray[1] = 11;
   
   
   return 0;  
