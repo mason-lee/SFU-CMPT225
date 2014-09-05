@@ -107,6 +107,8 @@ for(int i = 0; i < 4; i++) {
 
 A pointer is a integer address that is stored in the stack memory.
 
+
+
 ```
 int* p_arr = new int[100];
 for (int i = 0; i < 100; ++i) {
@@ -118,6 +120,24 @@ p_arr = new int[10000000];
 
 ```
 
+### Pointer
+
+```
+
+#include <iostream>
+using namespace std;
+
+int main
+{
+  int originArray[5];
+  
+  originArray[0] = 11;
+  originArray[0] = 11;
+  originArray[0] = 11;originArray[0] = 11;
+  
+  
+  return 0;  
+}
 
 
 
