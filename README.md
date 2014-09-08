@@ -149,16 +149,39 @@ int main()
 
 ### Pointers and Main Memory
 
-Memory consists of bytes.
-Pointer is an address to the memory.
+#### Memory Organization
+Memory is a sequence of bytes. Each variable has an address in memory where its value is stored.
+
+#### Pointer is a special type of variable
+* that stores an _address_ rather than a _value_
+* they are called pointers as they can be considered to _point to a variable_
 
 ```
-int* p;
+// It declares a variable called p that 
+// will point to (or refer to) an integer.
+// The type of a pointer is not the same as the type it points to
+// p is a pointer to an int, not an int
+int* p; 
 ```
+Address Operator and Dereferencing
 
+```
+int x = 23;  //23 is stored in a memory and the address is 4096
+int* p = &x; // 4096 is stored somewhere in the memory as well
+x = 47; //23 is replaced with 47
+*p = 38; //47 is replaced with 38
+```
 ### Dynacmic Array Stack Class
+Stack ADT should implement at least the first two oerations:
+- Push
+- Pop
+- Peek
+- Others(including constructors, destructor...)
+
+Class definition and function prototypes should be placed in a header file.
 
 ### Linked Lists
+A linked list is a dynamic data structure that consists of nodes linked together.
 A node is a data structure that contains data and the location of the next node.
 
 ```
