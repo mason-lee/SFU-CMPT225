@@ -145,6 +145,50 @@ int main()
   return 0;  
 }
 
+```
+
+### Pointers and Main Memory
+
+Memory consists of bytes.
+Pointer is an address to the memory.
+
+```
+int* p;
+```
+
+### Dynacmic Array Stack Class
+
+### Linked Lists
+A node is a data structure that contains data and the location of the next node.
+
+```
+class Node
+{
+  public:
+    int data;
+    Node* next; //next points to another node, hence its type Node*
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
