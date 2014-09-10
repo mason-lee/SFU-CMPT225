@@ -191,6 +191,14 @@ class Node
     int data;
     Node* next; //next points to another node, hence its type Node*
 };
+```
+
+Sep 10th
+
+```
+delete temp; // we delete what temp points to
+```
+
 
 
 
